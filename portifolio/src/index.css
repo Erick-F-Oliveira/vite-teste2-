@@ -4,9 +4,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  wekit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 
-  --color-primary: #16213e;
+  --color-primary: #395393;
   --color-secondary: #0f3460;
   --color-terceary: #533483;
   --red: #e94560;
