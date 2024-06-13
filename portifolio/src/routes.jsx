@@ -5,6 +5,9 @@ function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
+        <Route path="/sobre" element={<About/>}></Route>
+        <Route path="/contatos" element={<Contacts/>}></Route>
+        <Route path="/projects" element={<Projects/>}></Route>
       </Routes>
     </BrowserRouter>
   );

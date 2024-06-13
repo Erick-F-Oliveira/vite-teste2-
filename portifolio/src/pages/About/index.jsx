@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Sobre = () => {
-  return <h1>Sobre Page</h1>;
+const About = () => {
+  return <h1>About Page</h1>;
 };
 
-export default Sobre;
+export default About;
