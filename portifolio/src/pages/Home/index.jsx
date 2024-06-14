@@ -1,11 +1,12 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import styles from './Home.module.css'
 
 function Home() {
   return (
     <>
       <Header />
-      <section className="container">
+      <section className={styles.home}>
         <div className="presentation">
           <p>
             Oi oi, sou
@@ -14,7 +15,7 @@ function Home() {
             <br />
             Dev full stack
           </p>
-          <button className="btn btn-blue">Saiba mais</button>
+          <Link to="/sobre"className="btn btn-blue">Saiba mais</Link>
         </div>
         <div>
           <figure>
