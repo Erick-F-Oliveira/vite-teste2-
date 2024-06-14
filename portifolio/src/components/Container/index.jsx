@@ -1,12 +1,8 @@
 import styles from "./Container.module.css";
-function Container({children}) {
-  return (
-    <container className={styles.container}>
-      <section>
-        {children}
-      </section>
-     
-    </container>
-  );
+// eslint-disable-next-line react/prop-types
+function Container({ children }) {
+  return <section className={styles.container}>
+    {children}
+    </section>;
 }
 export default Container;

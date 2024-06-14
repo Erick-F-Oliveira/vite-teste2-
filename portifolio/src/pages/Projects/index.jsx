@@ -1,15 +1,18 @@
-import React from "react";
+
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import Container from "../../components/Container";
 
-const Projects = () => {
+function Projects () {
   return (
     <>
       <Header />
-      <h1>Projects Page</h1>
+      <Container>
+      <h2>Projects Page</h2>
+      </Container>
       <Footer />
     </>
-  );
-};
+  )
+}
 
 export default Projects;

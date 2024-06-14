@@ -32,17 +32,17 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  justfy-content: center;
+  justify-content: center;
   text-decoration: none;
 
 }
 
-.btn-blue {
+.btn_blue {
   background-color: var(--color-primary);
-  color: var(--soft-white)
-}
+  color: var(--soft-white);
+  }
 
-.btn-blue:hover{
+.btn_blue:hover{
   background-color: var(--color-secondary);
   color: var(--white)
 }

@@ -1,15 +1,17 @@
-import React from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import Container from "../../components/Container";
 
-const Contacts = () => {
+function Contacts() {
   return (
     <>
       <Header />
-      <h1>Projects Page</h1>
+      <Container>
+        <h2>Conatatos Page</h2>
+      </Container>
       <Footer />
     </>
   );
-};
+}
 
 export default Contacts;
