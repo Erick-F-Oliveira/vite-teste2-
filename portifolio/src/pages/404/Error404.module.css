@@ -1,0 +1,9 @@
+.error, .strong {
+  padding-top: 2rem;
+  font-size: 300px;
+  font-weight: bold;
+  color: var(--red);
+}
+.strong{
+  font-size: 25px;
+}
