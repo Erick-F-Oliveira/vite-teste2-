@@ -1,14 +1,11 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import Container from "../../components/Container";
+
 import styles from "./Contacts.module.css";
 import { FaWhatsapp, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Contacts() {
   return (
     <>
-      <Header />
-      <Container>
+      
         <section className={styles.contacts}>
           <h2>Conatatos Page</h2>
           <h3>Contate-me</h3>
@@ -36,8 +33,7 @@ function Contacts() {
             </a>           
           </div>
         </section>
-      </Container>
-      <Footer />
+      
     </>
   );
 }
