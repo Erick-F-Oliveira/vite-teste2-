@@ -1,4 +1,5 @@
 import styles from "./Card.module.css";
+console.log("batata")
 function Card() {
   return (
     <section className={styles.card}>
@@ -7,9 +8,10 @@ function Card() {
 
       <div className={styles.footer}>
         <div className={styles.icons}></div>
-        <button className={styles.button}></button>
+        
       </div>
     </section>
+    
   );
 }
 export default Card;
