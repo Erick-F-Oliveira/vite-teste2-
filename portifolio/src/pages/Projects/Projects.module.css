@@ -1,8 +1,8 @@
-.projetos h2 {
+.projects h2 {
   text-align: center;
 }
 
-.lista {
+.list {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
