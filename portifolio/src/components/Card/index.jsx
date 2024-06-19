@@ -1,5 +1,5 @@
 import styles from "./Card.module.css";
-console.log("batata")
+
 function Card() {
   return (
     <section className={styles.card}>
