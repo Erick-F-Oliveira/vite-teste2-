@@ -6,8 +6,7 @@ import { FaWhatsapp, FaGithub, FaLinkedin } from "react-icons/fa";
 function Contacts() {
   useEffect(()=>{
     
-    console.log("ee",import.meta.env.VITE_SOME_KEY), []
-    
+    console.log("ee",import.meta.env.VITE_SOME_KEY), [] 
          
     
     

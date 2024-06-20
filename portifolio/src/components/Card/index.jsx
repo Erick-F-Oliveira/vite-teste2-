@@ -2,9 +2,9 @@ import styles from "./Card.module.css";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
 
 // eslint-disable-next-line react/prop-types
-function Card({ name, description, url }) {
+function Card({ name, description, url, language}) {
   return (
-    <a href={url}  target="_blank"
+    <a className={styles.link} href={url}  target="_blank"
       rel="noopener noreferrer">
     <section className={styles.card}>
       <h3>{name}</h3>
@@ -12,6 +12,7 @@ function Card({ name, description, url }) {
 
       <div className={styles.footer}>
         <div className={styles.icons}>
+          {language}
           <FaHtml5 />
           <FaCss3Alt />
           <FaJs />

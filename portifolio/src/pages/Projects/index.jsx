@@ -6,10 +6,11 @@ function Projects() {
   useEffect(() => {
     const findRepo = async () => {
       const response = await fetch(
-        "https://api.github.com/users/Erick-F-Oliveira/repos",
+        "https://api.github.com/users/Erick-F-Oliveira/repos"
       );
       const data = await response.json();
       setRepositories(data);
+      console.log(data);
     };
     findRepo();
   }, []);
@@ -26,6 +27,7 @@ function Projects() {
               name={repo.name}
               description={repo.description}
               url={repo.html_url}
+              language={repo.languages_url}
             />
           ))}
         </section>
