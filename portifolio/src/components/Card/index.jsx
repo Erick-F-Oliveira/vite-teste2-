@@ -1,17 +1,25 @@
 import styles from "./Card.module.css";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
 
-function Card() {
+// eslint-disable-next-line react/prop-types
+function Card({ name, description, url }) {
   return (
+    <a href={url}  target="_blank"
+      rel="noopener noreferrer">
     <section className={styles.card}>
-      <h3>Título do projeto</h3>
-      <p>Descrição do projeto.</p>
+      <h3>{name}</h3>
+      <p>{description}</p>
 
       <div className={styles.footer}>
-        <div className={styles.icons}></div>
-        
+        <div className={styles.icons}>
+          <FaHtml5 />
+          <FaCss3Alt />
+          <FaJs />
+          <FaReact />
+        </div>
       </div>
     </section>
-    
+    </a>
   );
 }
 export default Card;

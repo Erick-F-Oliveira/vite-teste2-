@@ -25,7 +25,7 @@ function Projects() {
               key={repo.id}
               name={repo.name}
               description={repo.description}
-              html_url={repo.html_url}
+              url={repo.html_url}
             />
           ))}
         </section>
